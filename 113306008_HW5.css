@@ -1,0 +1,95 @@
+/* 基本樣式設定 */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+/* 主容器，包含左右兩側 */
+.main-container {
+    display: flex;
+    width: 80%;
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* 左側面板樣式 */
+.left-panel {
+    width: 35%;
+    background-color: #2c3e50;
+    color: #ffffff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.photo-panel {
+    width: 100%;
+    height: 200px;
+    background-color: #34495e;
+    background-image: url('https://github.com/Fengjui-Liu/Photo/raw/main/profile.jpg'); /* 更換成你的照片URL */
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 20px;
+}
+
+.text-content h2 {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.text-content p {
+    margin-bottom: 5px;
+}
+
+.nccu-icon {
+    width: 80px;
+    margin-top: 20px;
+}
+
+/* 右側面板樣式 */
+.right-panel {
+    width: 65%;
+    padding: 20px;
+}
+
+.right-panel h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.timeline .entry {
+    margin-bottom: 10px;
+}
+
+.timeline .year {
+    font-weight: bold;
+}
+
+.homework-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.homework-list li {
+    margin-bottom: 5px;
+}
+
+.favorite-music .albums {
+    display: flex;
+    gap: 10px;
+}
+
+.note {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555;
+}
