@@ -86,11 +86,14 @@ body {
 }
 
 /* 標題與內容間隔 */
-.right-panel h2 {
+.right-panel h2, 
+.left-panel h2 {
     color: #333;
     margin-bottom: 10px;  
     font-size: 22px;
     font-weight: bold;
+    border-bottom: 2px solid #ccc; /* 底部分隔線 */
+    padding-bottom: 5px;          /* 與分隔線的間距 */
 }
 
 .timeline .entry {
